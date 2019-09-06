@@ -9,8 +9,8 @@
 //    <div class="tab">topic here</div>
 
 
-axios.get("https://lambda-times-backend.herokuapp.com/topics")
-.then(res => {
+axios.get("https://lambda-times-backend.herokuapp.com/topics") 
+.then(res => { 
     console.log(res.data.topics)
    
     res.data.topics.forEach(topic => {
